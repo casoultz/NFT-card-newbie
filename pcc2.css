@@ -1,0 +1,116 @@
+body {
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+}
+.container {
+    position: relative;
+    background-color: hsl(216, 50%, 16%);
+    width: 290px;
+    height: 500px;
+    border-color: hsl(216, 50%, 16%);
+    border-style: solid;
+    border-radius: 10px;
+    margin-top: 80px;
+}
+.box-1 {
+    position: relative;
+    width: 290px;
+    border-style: hidden;
+    border-radius: 10px;
+}
+.box-2 {
+    width: 290px;
+    background-color: hsl(216, 50%, 16%);
+}
+.img-equilibrium {
+    width: 88%;
+    margin: 13px 10px 0px 15px;
+    border-color: hsl(216, 50%, 16%);
+    border-style: solid;
+    border-radius: 10px;
+}
+h3 {
+    margin-top: 14px;
+    margin-left: 18px;
+}
+.heading-1 {
+    color: white;
+    font-family: Outfit;
+    font-weight: 600;
+    font-size: 19px;
+    text-decoration: none;
+}
+.line-1 {
+    color: hsl(215, 51%, 70%);
+    font-family: Outfit;
+    font-weight: 200;
+    font-size: 14px;
+    margin-left: 18px;
+    margin-right: 18px;
+    margin-top: 5px;
+}
+.content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 23px;
+}
+.item-1 {
+    font-family: Outfit;
+    font-weight: 500;
+    font-size: 13px;
+    color: hsl(178, 100%, 50%);
+    margin-left: 18px;
+    display: inline-flex;
+    align-self: center;
+}
+.item-2 {
+    font-family: Outfit;
+    font-weight: 200;
+    color: hsl(215, 51%, 70%);
+    font-size: 13px;
+    margin-right: 20px;
+    display: inline-flex;
+    align-self: center;
+}
+hr {
+    border-color: hsl(215, 51%, 70%);
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    border-top: 0px;
+    opacity: 0.3;
+}
+.creation {
+    display: flex;
+    align-items: center;
+    color: hsl(215, 51%, 70%);
+    font-family: Outfit;
+    font-weight: 200;
+    font-size: 13px;
+    margin-left: 20px;
+}
+.JW {
+    width: 11%;
+    border-color: white;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 1px;
+}
+.credit {
+    color: white; 
+    font-weight: 400;
+    text-decoration: none;
+}
+.heading-1:hover {
+    color: hsl(178, 100%, 50%);
+}
+.credit:hover {
+    color: hsl(178, 100%, 50%);
+}
+.box-1:hover {
+    background: url(file:///C:/Users/Lenovo/Desktop/PCC2/icon-view.svg) no-repeat center;
+}
+.img-equilibrium:hover {
+    filter: opacity(0.3) drop-shadow(0 0 0 hsl(178, 100%, 50%));
+}
