@@ -109,7 +109,7 @@ hr {
     color: hsl(178, 100%, 50%);
 }
 .box-1:hover {
-    background: url(file:///C:/Users/Lenovo/Desktop/PCC2/icon-view.svg) no-repeat center;
+    background: url(icon-view.svg) no-repeat center;
 }
 .img-equilibrium:hover {
     filter: opacity(0.3) drop-shadow(0 0 0 hsl(178, 100%, 50%));
